@@ -1,0 +1,515 @@
+
+a,
+a:focus {
+	text-decoration: none;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	// font-family: 'Titillium Web', sans-serif
+}
+
+body,
+html {
+	overflow-x: hidden;
+	text-rendering: optimizeLegibility;
+	background-color: #f0f2f5
+}
+
+
+
+ul {
+	padding: 0;
+	margin: 0;
+	list-style: none
+}
+
+a:focus {
+	outline: 0
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	color: #2d385e
+}
+
+a,
+a:focus,
+a:hover {
+	color: #4f77ff
+}
+
+.btn-primary {
+	background-color: #4f77ff;
+	border-color: #4f77ff
+}
+
+.btn-primary.active,
+.btn-primary:active,
+.btn-primary:active:focus,
+.btn-primary:active:hover,
+.btn-primary:focus,
+.btn-primary:hover {
+	background-color: #486ff2;
+	border-color: #486ff2
+}
+
+.brand-logo {
+	margin: 35px auto
+}
+
+.skybooker-panel-left {
+	background-color: #fff;
+	height: 100vh;
+	padding-top: 5%;
+}
+
+
+.skybooker-panel-right {
+
+
+		.rewards-logo{
+				max-width: 30%;	
+    			padding: 10px;
+		}
+
+		// background-color: rgba(40, 70, 100, 0.9);
+		color: #fff;
+		height: 100vh;
+		background-image: linear-gradient(to bottom, rgba(40, 70, 100, 0.9), rgba(0, 0, 0, 0.1)), url(https://sandbox-uploads.imgix.net/u/1550486182-7be4d8760197fcf4e3d4fb10b5bc5d4b);
+
+			.hero-heading {
+			display: table;
+			height: 100vh;
+			width: 100%;
+			padding-top: 15%;
+			padding-left: 5%;
+
+			.headline{
+				// display: table-cell;
+				// vertical-align: middle;
+
+				h3{
+				
+					font-weight: 600;
+					font-size: 3rem;
+					margin-top: 2%;
+				}
+			}
+		}
+}
+
+.right-box {
+	padding: 20px 30px;
+    background: rgba(255, 255, 255, 0.9);
+	color:#333;
+
+			ul.offer-deals{ 
+
+				li{
+					letter-spacing: 1px;
+					line-height: 40px;
+
+					span.offer {
+						font-size: 1.9rem;
+						font-weight: 600;
+					}
+
+				}
+
+				li .fas{
+				    color: #fff;
+					margin-right: 5px;
+					background: orange;
+					border-radius: 50%;
+					font-size: 1.3rem;
+					padding: 6px;
+					}
+		}
+}
+
+
+
+
+
+// .skybooker-panel-right .hero-heading .headline h1,
+// .skybooker-panel-right .hero-heading .headline h2,
+// .skybooker-panel-right .hero-heading .headline h3 {
+// 	color: #fff;
+// 	font-size: 48px;
+// 	font-weight: 700
+// }
+
+.skybooker-login {
+	min-height: 510px;
+	position: relative;
+	top: 0;
+	left: 0;
+	overflow: hidden
+}
+
+.skybooker-panel {
+	padding: 0 40px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	transition: all .5s ease;
+	opacity: 0;
+	transform: translateX(-100%);
+	-webkit-transform: translateX(-100%)
+}
+
+.skybooker-panel .skybooker-heading {
+	margin-bottom: 30px
+}
+
+.skybooker-login .auth-title {
+	font-weight: 700;
+	margin-top: 0
+}
+
+.skybooker-login .skybooker-panel.active {
+	opacity: 1;
+	transform: translateX(0);
+	-webkit-transform: translateX(0)
+}
+
+.skybooker-login .social-buttons a {
+	color: #fff
+}
+
+.skybooker-login .social-buttons a:hover {
+	color: #fff;
+	opacity: .9
+}
+
+.skybooker-login .social-buttons .btn-facebook {
+	background: #3b5998
+}
+
+.skybooker-login .social-buttons .btn-twitter {
+	background: #00aced
+}
+
+.skybooker-login .social-buttons .btn-google {
+	background: #c32f10
+}
+
+.skybooker-login .loginOr {
+	position: relative;
+	font-size: 1.5em;
+	color: #aaa;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	padding-top: .5em;
+	padding-bottom: .5em
+}
+
+.skybooker-login .loginOr .spanOr {
+	width: 100%;
+	display: block;
+	text-align: center;
+	position: relative;
+	overflow: hidden
+}
+
+.skybooker-login .loginOr .spanOr:after,
+.skybooker-login .loginOr .spanOr:before {
+	content: "";
+	background-color: #ddd;
+	width: 55%;
+	height: 1px;
+	position: absolute;
+	top: 19px
+}
+
+.skybooker-login .loginOr .spanOr:before {
+	left: -50px
+}
+
+.skybooker-login .loginOr .spanOr:after {
+	right: -50px
+}
+
+.panel-login .remember-row {
+	margin-bottom: 10px
+}
+
+.panel-login .remember-row label {
+	font-weight: 400;
+	position: relative;
+	cursor: pointer;
+	color: #666;
+	padding-left: 24px
+}
+
+.skybooker-login .forgotPwd {
+	text-align: right;
+	margin-top: 10px
+}
+
+.panel-forgot .form-control,
+.panel-login .form-control,
+.panel-signup .form-control {
+	color: #333;
+	font-size: 16px;
+	height: 50px;
+	padding: 12px 0;
+	outline: 0;
+	border: 0;
+	-webkit-box-shadow: none;
+	box-shadow: none
+}
+
+.panel-forgot .form-control:focus+.focus-input:before,
+.panel-login .form-control:focus+.focus-input:before,
+.panel-signup .form-control:focus+.focus-input:before {
+	width: 100%
+}
+
+.wrap-input {
+	width: 100%;
+	position: relative;
+	border-bottom: 2px solid #d9d9d9
+}
+
+.focus-input,
+.focus-input:before {
+	display: block;
+	position: absolute;
+	left: 0
+}
+
+.focus-input {
+	width: 100%;
+	height: 100%;
+	top: 0;
+	pointer-events: none
+}
+
+.focus-input:before {
+	background-color: #4f77ff;
+	content: "";
+	width: 0;
+	height: 2px;
+	bottom: -2px;
+	-webkit-transition: all .4s;
+	-o-transition: all .4s;
+	-moz-transition: all .4s;
+	transition: all .4s
+}
+
+.skybooker-panel.panel-forgot {
+	padding-top: 40px
+}
+
+.pwdMask {
+	position: relative
+}
+
+.pwdMask .pwd-toggle {
+	color: #ccc;
+	position: absolute;
+	z-index: 2
+}
+
+.panel-login .pwdMask .pwd-toggle,
+.panel-signup .pwdMask .pwd-toggle {
+	top: 15px;
+	right: 15px
+}
+
+.pwdMask .pwd-toggle:focus,
+.pwdMask .pwd-toggle:hover {
+	cursor: pointer
+}
+
+.pwdMask .pwd-toggle.fa-eye,
+.pwdMask .pwd-toggle:focus,
+.pwdMask .pwd-toggle:hover {
+	color: #4f77ff
+}
+
+.panel-signup .term-policy a {
+	text-decoration: underline
+}
+
+.checkbox input[type=checkbox] {
+	position: absolute;
+	right: 9000px;
+	opacity: 0;
+	z-index: 1;
+	cursor: pointer
+}
+
+.checkbox input[type=checkbox]+.label-text:after,
+.checkbox input[type=checkbox]+.label-text:before {
+	font-size: 11px;
+	display: inline-block;
+	width: 17px;
+	height: 17px;
+	padding: 2px;
+	margin-left: 0;
+	position: absolute;
+	top: 2px;
+	left: 0
+}
+
+.checkbox input[type=checkbox]+.label-text:before {
+	content: "";
+	background-color: #fff;
+	border: 1px solid #ced4da;
+	border-radius: 3px;
+	cursor: pointer;
+	transition: border .15s ease-in-out, color .15s ease-in-out
+}
+
+.checkbox input[type=checkbox]+.label-text:after {
+	background-color: #4f77ff;
+	color: #fff;
+	border-radius: 2px;
+	border-color: #4f77ff;
+	line-height: 1.4
+}
+
+.checkbox input[type=checkbox]:focus+.label-text:before {
+	outline: dotted thin;
+	outline: -webkit-focus-ring-color auto 5px;
+	outline-offset: -2px
+}
+
+.checkbox input[type=checkbox]:checked+.label-text:after {
+	font-family: FontAwesome;
+	content: "\f00c"
+}
+
+@media (min-width:812px) {
+	.skybooker-panel-left {
+		height: 100%
+	}
+}
+
+@media (min-width:834px) {
+	.skybooker-panel-left {
+		height: 100vh; 
+	}
+}
+
+@media (min-width:846px) {
+	.skybooker-panel-left {
+		height: 100%
+	}
+}
+
+@media (min-width:849px) {
+	.skybooker-panel-left {
+		height: 100vh
+	}
+}
+
+@media (min-width:896px) and (max-width:960px) {
+	.skybooker-panel-left {
+		height: auto
+	}
+}
+
+@media (min-width:601px) and (max-width:767px) {
+	.skybooker-panel-left {
+		height: auto
+	}
+}
+
+@media (min-width:320px) and (max-width:600px) {
+	.skybooker-panel-left {
+		height: 100vh
+	}
+}
+
+@media (min-width:320px) and (max-width:767px) {
+	.skybooker-login {
+		height: 540px
+	}
+	.skybooker-panel {
+		padding: 0 20px
+	}
+}
+
+@media screen and (min-width:533px) and (max-width:568px) {
+	.skybooker-panel-left {
+		height: 100%
+	}
+}
+
+@media (max-width:320px) {
+	.skybooker-panel-left {
+		height: 100%
+	}
+	.remember-row .col-sm-6 {
+		width: 100%
+	}
+	.skybooker-login .forgotPwd {
+		text-align: left;
+		margin-top: 0
+	}
+}
+
+#overlay.show {
+    background: rgba(0, 0, 0, 0.6);
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    top: 0px;
+    z-index: 1;
+}
+
+
+// css animation
+.user-details {
+    position: absolute;
+    top: 35%;
+    left: 40%;
+	background: #fff;
+	z-index: 2;
+	border-radius: 3px;
+	padding: 14px 25px;
+	animation: bounceIn 1s;
+	
+	@keyframes bounceIn {
+		0% {
+		  transform: scale(0.1);
+		  opacity: 0;
+		}
+		100% {
+		  transform: scale(1);
+		  opacity: 1;
+		}
+
+	  }
+
+	.fas{
+		font-size: 3rem;
+		background: orange;
+		color: #fff;
+		border-radius: 50%;
+		padding: 10px;
+	}
+	p{
+		font-size: 2.5rem;
+		margin-top: 8%;
+		margin-bottom: 0px;
+	}
+
+
+
+}
